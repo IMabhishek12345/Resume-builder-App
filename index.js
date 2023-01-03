@@ -109,5 +109,6 @@ function generateCV(){
 
 //print your cv
 function printCV(){
+  document.getElementById("print").style.display="none";
   window.print();
 }
