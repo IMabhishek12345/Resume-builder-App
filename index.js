@@ -103,8 +103,20 @@ function generateCV(){
   }
   document.getElementById("aqT").innerHTML=newstr;  
   
+  // code for setting profile picture
+  let file=document.getElementById("imgProfile").files[0];
+  console.log(file);
+  let reader=new FileReader();
+  reader.readAsDataURL(file)
+  console.log(reader.result);
+  //set the img in template
+  reader.onloadend=function(){
+  document.getElementById("imgT").src=reader.result;
+  }
+
   document.getElementById("cv-form").style.display="none";
   document.getElementById("cv-template").style.display="block";
+
 }
 
 //print your cv

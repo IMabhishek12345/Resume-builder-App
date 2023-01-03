@@ -1,9 +1,12 @@
 .my-img{
     border: 1px solid black;
     border-radius: 50%;
-}
+    width: 200px;
+  }
 .background{
-  background: aqua;
+  background:lightgray;
+  
+  border: 1px solid black;
 }
 #cv-template{
   display: none;
