@@ -1,0 +1,10 @@
+.my-img{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.background{
+  background: aqua;
+}
+#cv-template{
+  display: none;
+}
